@@ -16,6 +16,7 @@ Core R utilities used across all ChildMetrix projects.
 
 ### Templates (`/templates`)
 - **r_script_template_generic.R** - Generic R script template
+- **claude_project_template.md** - Template for project-level CLAUDE.md files (used by Claude Code)
 
 ## Usage
 
