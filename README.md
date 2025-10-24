@@ -2,6 +2,8 @@
 
 Core R utilities used across all ChildMetrix projects.
 
+**Repository**: [github.com/childmetrix/utilities-core](https://github.com/childmetrix/utilities-core)
+
 ## Contents
 
 ### Root Files
