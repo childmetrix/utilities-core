@@ -2,9 +2,17 @@
 
 ## Commitment Reference
 
-[State]-[Commitment Number] - [Full Description]
+[STATE] Commitment [COMMITMENT] - [COMMITMENT_DESC]
 
-Example: ms-1.3a - Mississippi Consent Decree Commitment 1.3.a - Suspension Period Analysis
+Example: MS Commitment 1.3.a - Suspension Period Analysis
+
+## Naming Convention
+
+This project follows ChildMetrix naming standards:
+- **Repo folder (kebab-case)**: `[PROJECT_NAME]` (e.g., `ms-mdcps-1-3-a`)
+  - Format: `<state>-<project>-<commitment-with-hyphens>`
+- **R script (snake_case)**: `[COMMITMENT].R` (e.g., `1_3_a.R`)
+  - Format: `<commitment_with_underscores>.R`
 
 ## Project Description
 

@@ -17,10 +17,15 @@ This repo contains generic R functions, package loaders, project setup scripts, 
 - Loads commonly used packages (tidyverse, lubridate, etc.)
 - Use: `source("D:/repo_childmetrix/utilities-core/loader.R")`
 
-**r_project_setup.R**
-- Creates new R project structure
+**project_setup.R**
+- Creates new R project structure with enforced naming conventions
+- Enforces kebab-case for repo folders: `<state>-<project>-<commitment>` (e.g., `ms-mdcps-1-3-a`)
+- Enforces snake_case for R scripts: `<commitment>.R` (e.g., `1_3_a.R`)
 - Copies script templates to new project
-- Sets up standard folder structure (data/, output/, scripts/, etc.)
+- Copies CLAUDE.md template for Claude Code
+- Sets up standard folder structure (code/, data/, output/, docs/, .claude/)
+- Initializes git and creates GitHub repo under childmetrix organization
+- Use: `source("D:/repo_childmetrix/utilities-core/project_setup.R")`
 
 ### Functions Directory
 
